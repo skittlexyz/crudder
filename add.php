@@ -37,36 +37,11 @@
     <h1 class="tw-w-full">Crudder🍁</h1>
     <div class="tw-w-full tw-flex tw-justify-between">
       <div class="tw-w-full tw-flex tw-gap-2 tw-justify-end">
-        <input type="email" class="form-control tw-w-min" id="exampleFormControlInput1" placeholder="Search...">
-        <button type="button" class="btn btn-secondary tw-mr-auto" onclick="location.reload()">Refresh <i class="bi bi-arrow-clockwise"></i></button>
-        <button type="button" class="btn btn-success" onclick="document.location.href = 'add.php'">Add <i class="bi bi-plus-lg"></i></button>
-        <button type="button" class="btn btn-warning" onclick="document.location.href = 'configure.php'">Configure <i class="bi bi-gear"></i></button>
+        <button type="button" class="btn btn-danger" onclick="document.location.href = 'index.php'">Cancel <i class="bi bi-x-lg"></i></button>
+        <button type="button" class="btn btn-success">Confirm <i class="bi bi-check2"></i></button>
       </div>
     </div>
-    <div class="table-responsive tw-w-full tw-h-[60vh]">
-      <table class="table table-striped tw-mb-0">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col" class="tw-text-right">Options</th>
-          </tr>
-        </thead>
-        <tbody class="tw-overflow-auto ">
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td class="">
-              <div class="tw-ml-auto tw-flex tw-justify-end tw-gap-2 tw-h-full">
-                <button type="button" class="btn btn-info">Edit <i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger">Delete <i class="bi bi-trash"></i></button>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="tw-w-full tw-h-[60vh]">
     </div>
     <ul class="nav tw-flex tw-justify-between tw-w-full">
       <li class="nav-item">
